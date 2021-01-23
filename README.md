@@ -28,7 +28,7 @@ Ferramenta para gerenciamento de requisições HTTP
 Exemplo: Insomnia, Postman
 ```
 
-### Installing
+### Instalando
 
 Configurando o banco de dados:
 
