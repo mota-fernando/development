@@ -1,7 +1,5 @@
 const Customers = require('../models/Customers');
 
-const { Op } = require("sequelize");
-
 const validator = require("email-validator");
 
 module.exports = {
@@ -78,7 +76,7 @@ module.exports = {
 			
 			const customers = await Customers.findOne({
 				where: {
-					[Op.or]: [
+					[Sequelize.or]: [
 					  { email: email },
 					  { cpf: cpf }
 					]				

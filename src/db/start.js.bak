@@ -4,7 +4,7 @@ const ConfigDefault = require('../config/database');
 
 const Customers = require('../models/Customers');
 
-const Address = require('../models/Addresses');
+//const Address = require('../models/Addresses');
 
 const connection = new Sequelize(ConfigDefault);
 

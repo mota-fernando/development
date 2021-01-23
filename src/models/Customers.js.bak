@@ -10,9 +10,7 @@ class Customers extends Model {
 			
             surname: DataTypes.STRING,
 			
-            email: DataTypes.STRING,
-			
-			cpf: DataTypes.INTEGER
+            email: DataTypes.STRING
 			
         }, {
 			

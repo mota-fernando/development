@@ -19,8 +19,9 @@ router.post('/customers', CustomersRouters.store);
 //-- Adressess routers
 
 router.get('/customers/:customers_id/address', AddressesRouters.index);
-
-router.post('/customers/:customers_id/address', AddressesRouters.store);
+/*
+router.post('/routers/:user_id/address', AddressesRouters.store);
+*/
 
 const app = express();
 

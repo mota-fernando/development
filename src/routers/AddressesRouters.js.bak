@@ -118,7 +118,7 @@ module.exports = {
 				state = data["uf"];
 				
 				
-			let address = Address.create({
+			const address = Address.create({
 						 
 				cep,
 				
