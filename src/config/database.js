@@ -8,7 +8,7 @@ module.exports = {
 	
     password: '',
 	
-    database: 'apiviacep',
+    database: 'development',
 	
     define: {
         
